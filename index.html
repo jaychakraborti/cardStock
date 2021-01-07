@@ -58,6 +58,34 @@ body {
 
 
 </style>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+font-size: 12px;
+color: #9CADD0;
+}
+</style>
+<script type="text/javascript">
+function load() {
+var feed ="http://feeds.bbci.co.uk/news/world/rss.xml";
+new GFdynamicFeedControl(feed, "feedControl");
+
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+
+
 </head>
 <body>
 
@@ -72,116 +100,15 @@ body {
 
 
 
-<img src="entryImage.jpg" width="100%" alt="welcome image">
 
 
 <div class="mainText" >
   
-<p>
-<a href="https://twitter.com/realvitaminjay" target="_blank">Twitter</a>|
-<a href="https://www.youtube.com/channel/UCcqeIcCU1aKoI5vgmirgG_w?view_as=subscriber" target="_blank">Youtube</a>|
-<a href="https://www.tiktok.com/@realvitaminjay?source=h5_m" target="_blank" >Tiktok</a>|
-<a href="https://www.reddit.com/r/jaychakraborti/" target="_blank">Reddit</a>|
-<a href="https://www.facebook.com/jay.chakraborti.71" target="_blank">Facebook</a>|
-<a href="https://www.linkedin.com/in/jay-chakraborti-33ba09198/" target="_blank">Linkedin</a>|
-<a href="https://github.com/jaychakraborti" target="_blank">Github</a>|
-<a href="https://www.instagram.com/realvitaminjay/" target="_blank">Instagram</a>
-</p>
 
+<div id="body">
+<div id="feedControl">Loading...</div>
+</div>
 
-
-
-
-
-
-<h2>About</h2>
-
-<p>Hey there, I'm Jay Chakraborti. I am 15 years old, and live in Houston, Texas.</p>
-
-<p> I make videos on Tiktok and Youtube, mainly comedic skits, vlogs, projects, as well as deep dives into specific topics. I also have a daily(ish) <a href="blog.html" target="_blank">blog</a> where I right  about science, finance, technology, coding, business, as well as whatever is going on in my life. You can also find me active on Twitter, Instagram, and Reddit. I also host a <a href="podcast.html" target="_blank">podcast</a> called Vitamin J, which is a comedic advice podcast.</p>
-
-<p>In terms of academics, I am a memeber of <a href="https://www.deca.org/" target="_blank">DECA</a>, which is a business competition for highschool and college students. Additionally, I am part of a <a href="https://www.toastmasters.org/" target="_blank">Toastmasters</a> club, in which I practice public speaking.</p>
-
-<p>When I am not working, I love to watch movies, mainly action movies or Bollywood movies. I also read books, watch NBA Games(go <a href="https://www.nba.com/bucks/" target="_blank">Bucks</a>!!), and play basketball.</p>
-
-<br><br><br>
-
-<h2>Projects</h2>
-
-<h4>Tiktok</h4>
-<p>I started making Tiktoks in June of 2020, and have since been steadily growing in follower count, increasing production value, and learning new skills, such as lighting and editing.</p>
-
-<h4>This Website</h4>
-<p>Everything on this website was handcoded, which, depending how it looks at the moment, is either impressive or obvious.</p>
-
-
-
-
-<br><br><br>
-<h2>Education</h2>
-
-
-
-<h4>The Woodlands College Park High School</h4>
-<p>2018 - 2022<br>
-Class Rank: 3/820<br>
-GPA 4.0/4.0<br>
-PSAT: 1490/1520<br>
-AP Courses(5 on all): Human Geography, Statistics, World History, Environmental Science, Psychology</p>
-
-
-
-
-<br><br><br>
-<h2>Experience</h2>
-
-<h4>Junior Toastmasters — Secretary</h4>
-<p>AUGUST 2019 - PRESENT<br>
-Managed dates and times for meetings, competitions, and more. Informed members of dates, upcoming events as well as weekly reviews.</p>
-
-<h4>Texas Computer Science Summer Academy</h4>
-<p>JUNE - JULY 2020<br>
-Attended CS Guest Lectures, learned about career options</p>
-
-<h4>Char Dham Temple Youth Club — Founder</h4>
-<p>FEBRUARY 2019 - PRESENT<br>
-Organized the activities, times, and dates of festivals. Gave guided tours to temple visitors. Volunteered during events.</p>
-
-
-<h4>Hindu Temple Youth Group — Senior Board Member</h4>
-<p>AUGUST 2016 - MAY 2017<br>
-Recruited younger members to join the organization. Planned events. Volunteered during events.</p>
-
-
-
-
-
-<br><br><br>
-<h2>Awards/Achievements</h2>
-
-<ul>
-    <li>AP Scholar with Distinction</li>
-    <li>DECA International advancement</li>
-    <li>Texas DECA State Finalist</li>
-    <li><a href="https://www.hellowoodlands.com/student-innovators-shine-during-the-29th-annual-sci-tech-expo/" target="_blank">CISD Math Bowl 1st Place</a></li>
-    <li><a href="https://india-herald.com/hgh-recognizes-hindu-youth-award-recipients-p7279-1.htm" target="_blank">Hindu Youth Volunteering Award</a></li>
-    <li>Duke TIP National Recognition</li>
-    <li><a href="https://solarsystem.nasa.gov/scientist-for-a-day/winners/14/" target="_blank">Cassini Scientist For a Day</a></li>
-</ul>
-
-
-<br><br><br>
-<h2>Skills</h2>
-
-<p><b>Programming:</b> C++, Java, JavaScript, HTML, CSS, Python</p>
-<p><b>Applications:</b> Git, Bash, Vim, Sublime Text, GIMP, LibreOffice, Audacity, Blender, Kdenlive, Google Suites, Anki</p>
-<p><b>Interpersonal:</b> Public Speaking, Comedy, Leadership, Conscientous </p>
-<p><b>Languages:</b> English, Bengali, Hindi, Spanish </p>
-<p><b>Interests:</b> Poker, Chess, Video/Photo Editing, 3D Modeling/Rendering, Linux, Reading, Basketball</a></p>
-
-
-
-<br><br><br><br><br>
 
 
 </div>
